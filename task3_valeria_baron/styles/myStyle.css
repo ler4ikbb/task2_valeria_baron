@@ -1,0 +1,154 @@
+﻿body{
+
+
+font-family: arial, helvetica, sans-serif;
+font-size: 250%;
+color: #F5F5F5;
+background-color:
+margin: 0 auto;
+padding: 1px;
+border-style:double;
+border: 35px ;
+text-align: center;
+}
+
+
+
+@keyframes eee {
+    0%   {color:#F5F5F5;}
+   70% {color:  #8e83bc;}
+}
+
+
+h1 {
+font-family: arial, helvetica, sans-serif;
+font-size:250%;
+text-align: center;
+background-color: #F5F5F5;
+color:  #8e83bc;
+  animation-name: eee;
+    animation-duration: 5s;
+}
+
+
+
+
+
+h2 {
+font-family: arial, helvetica, sans-serif;
+font-size:200%;
+text-align: center;
+background-color:#B2EDCE;
+color:  #000000;
+
+}
+
+h2 a:hover {
+                
+                color:#8e83bc;
+            }
+h2  a:active {
+                background-color: #f90053;
+                color: black;
+            }
+#nav1 ul {
+    list-style: none;
+    width: 1000px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: center;
+        text-align: justify;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            background-color: white;
+            color: #A9A9A9;
+            text-decoration: none;
+            text-align: center;
+            width: 220px;
+            height: 100px;
+            Padding-top: 0;
+            text-align: center;
+        }
+
+
+        
+            #nav1 ul li a:hover {
+                background-color: #f55071;
+                color:#F5F5F5;
+            }
+
+            #nav1 ul li a:active {
+                background-color:white;
+                color: #f55071;
+
+            }
+
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav1 ul li:hover ul {
+            display: block;
+            width: 100px;
+         
+        }
+
+        aside {
+         
+          background-color: #8e83bc;
+           text-align: center;
+           color : white;
+       
+        }
+
+
+
+             #perur {
+         color:#A9A9A9;
+           
+     }
+
+     #perur ul li
+{
+display:inline-block;
+}     #perur ul li:after
+{
+content: ">";
+}
+#perur ul li:last-child:after
+{
+content:"" ;
+}
+
+
+
+
+}
+    #perur ul li:hover ul {
+           
+            color: #8e83bc;
+        }
+
+
+
+
+
+
+@keyframes example {
+    0%   {color: #8e83bc;}
+   70% {color:  white;}
+}
+
+
+aside {
+    animation-name: example;
+    animation-duration: 5s;
+}
